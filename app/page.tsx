@@ -5,6 +5,7 @@ import OnorOff from './components/OnorOff'
 import RealTimeText from './components/RealTimeText'
 import ButtonBGChange from './components/ButtonBGChange'
 import Feedback from './components/Feedback'
+import Tempreture from './components/Tempreture'
 
 const page = () => {
   return (
@@ -14,7 +15,8 @@ const page = () => {
       {/* <OnorOff /> */}
       {/* <RealTimeText /> */}
       {/* <ButtonBGChange /> */}
-      <Feedback />
+      {/* <Feedback /> */}
+      <Tempreture />
     </div>
   )
 }
